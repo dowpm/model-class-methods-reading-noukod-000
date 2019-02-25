@@ -1,4 +1,5 @@
 class PostsController < ApplicationController
+    helper_method :params
 
   def index
     # provide a list of authors to the view for the filter control
